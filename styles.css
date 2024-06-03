@@ -1,0 +1,102 @@
+
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #F3D0D7
+}
+
+.logo{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 19px;
+  color: #6C0345;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li {
+    display: inline;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6C0345;
+    font-weight: bold;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+main .content {
+    max-width: 500px;
+    align-items: normal;
+
+}
+
+main .content h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #FC819E;
+    font-family: "Dancing Script", cursive;
+
+
+
+}
+
+
+main .content p {
+    font-size: 19px;
+    color: #666;
+    line-height: 1.6;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+
+}
+
+main .content button {
+    background-color: #FBA1B7;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main .image img {
+    max-width: 100%;
+    height: auto;
+
+}
